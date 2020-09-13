@@ -12,13 +12,6 @@ var Dialog = {
         },
         {
             "message": {
-                "text": [
-                    "on 14/09/2020"
-                ]
-            }
-        },
-        {
-            "message": {
                 "quick_replies": [
                     {
                         "content_type": "text",
