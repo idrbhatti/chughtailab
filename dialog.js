@@ -1,12 +1,19 @@
 var Dialog = {
     "version": "2.2",
-    "FormId": "https://docs.google.com/forms/d/e/1FAIpQLSeHF0JYmRcaZbidtKiwstw5CmThlFqpqreD1l1PAmd6vZPSPg/viewform?usp=embed_facebook",
+    "FormId": "https://docs.google.com/forms/d/e/1FAIpQLSd7k3U7Xb8Qba2_BjMGfzCwQsGY_hVvxfJv0--H_Q5VGkh5ow/viewform?usp=embed_facebook",
     "messages": [
         {
             "message": {
                 "text": [
-                    "Hi! I am Rusty the test bot by Muhammad Hassan Ashfaq.",
-                    "Welcome to Pre-Lecture Test of Community Medicine"
+                    "Hi! Rusty welcomes you back to Post-Lecture Test for Communnity Medicine.",
+                    "Again, you better know to fill up the details about you."
+                ]
+            }
+        },
+        {
+            "message": {
+                "text": [
+                    "So move ahead, and start filling up!"
                 ]
             }
         },
@@ -21,14 +28,7 @@ var Dialog = {
                     }
                 ],
                 "text": [
-                    "Let's start from an introduction by your side."
-                ]
-            }
-        },
-        {
-            "message": {
-                "text": [
-                    "Please be HONEST 😸."
+                    "3.2.1.....Go!"
                 ]
             }
         },
@@ -36,7 +36,7 @@ var Dialog = {
             "message": {
                 "payload": "emailAddress",
                 "text": [
-                    "Please let me know your eMail address.I promise I won't spam😔."
+                    "Email address"
                 ],
                 "input": {
                     "type": "email",
@@ -48,7 +48,14 @@ var Dialog = {
         {
             "message": {
                 "text": [
-                    "Thanks alot."
+                    "Umm hmm listening."
+                ]
+            }
+        },
+        {
+            "message": {
+                "text": [
+                    ""
                 ]
             }
         },
@@ -56,38 +63,24 @@ var Dialog = {
             "message": {
                 "payload": 1673149897,
                 "text": [
-                    "And of course I would love to know your name."
+                    "Your Name"
                 ],
                 "input": {
                     "type": "text",
                     "placeholder": "Your answer..."
                 }
-            }
-        },
-        {
-            "message": {
-                "text": [
-                    "Thanks!"
-                ]
             }
         },
         {
             "message": {
                 "payload": 304845157,
                 "text": [
-                    "Yeah yeah, just for official purposes please enter your roll number."
+                    "Your Roll #"
                 ],
                 "input": {
                     "type": "text",
                     "placeholder": "Your answer..."
-                }
-            }
-        },
-        {
-            "message": {
-                "text": [
-                    "cheers :clap:"
-                ],
+                },
                 "script": "[%messages_1354328994%]"
             }
         }
@@ -96,59 +89,38 @@ var Dialog = {
         {
             "message": {
                 "text": [
-                    "Great! Now come let show others your great knowledge on currently accessed topic. 😉",
-                    "DISCLAIMER!! Attempt all MCQs, each MCQ carry equal marks and each MCQ is time locked so once you attempt or one minute passed it will move to next."
+                    "Let's start test.",
+                    "DISCLAIMER!Attempt all MCQs, each MCQ carry equal marks and each MCQ is time locked so once you attempt or one minute passed it will move to next."
                 ]
             }
         },
         {
             "message": {
+                "payload": 570835691,
                 "text": [
-                    "Question 1 out of 10"
-                ]
-            }
-        },
-        {
-            "message": {
-                "payload": 1774294645,
-                "text": [
-                    "I was appointed to perform as doctor in a place pack with trees, fresh air, lake, agriculture land full of crops and cattle rearing in the mountains. I love this sort of:"
+                    "Healthy environment, good food and exercise helps in maintaining ecological conditions that prevent diseases and promote:"
                 ],
                 "quick_replies": [
                     {
                         "content_type": "text",
-                        "title": "Hospital"
+                        "title": "Sports"
                     },
                     {
                         "content_type": "text",
-                        "title": "Clinic"
+                        "title": "Health"
                     },
                     {
                         "content_type": "text",
-                        "title": "Village"
+                        "title": "Nutrition"
                     },
                     {
                         "content_type": "text",
-                        "title": "Environment"
+                        "title": "Gardening"
                     },
                     {
                         "content_type": "text",
-                        "title": "City"
+                        "title": "Life style"
                     }
-                ]
-            }
-        },
-        {
-            "message": {
-                "text": [
-                    ":clap::clap::clap:"
-                ]
-            }
-        },
-        {
-            "message": {
-                "text": [
-                    "Question 2 out of 10"
                 ]
             }
         },
@@ -185,36 +157,43 @@ var Dialog = {
         {
             "message": {
                 "text": [
-                    "Next ..."
+                    "Noooice! :clap:"
                 ]
             }
         },
         {
             "message": {
-                "payload": 570835691,
                 "text": [
-                    "Healthy environment, good food and exercise helps in maintaining ecological conditions that prevent diseases and promote:"
+                    "Question 3 out of 10"
+                ]
+            }
+        },
+        {
+            "message": {
+                "payload": 1774294645,
+                "text": [
+                    "I was appointed to perform as doctor in a place pack with trees, fresh air, lake, agriculture land full of crops and cattle rearing in the mountains. I love this sort of:"
                 ],
                 "quick_replies": [
                     {
                         "content_type": "text",
-                        "title": "Sports"
+                        "title": "Hospital"
                     },
                     {
                         "content_type": "text",
-                        "title": "Health"
+                        "title": "Clinic"
                     },
                     {
                         "content_type": "text",
-                        "title": "Nutrition"
+                        "title": "Village"
                     },
                     {
                         "content_type": "text",
-                        "title": "Gardening"
+                        "title": "Environment"
                     },
                     {
                         "content_type": "text",
-                        "title": "Life style"
+                        "title": "City"
                     }
                 ]
             }
@@ -222,14 +201,7 @@ var Dialog = {
         {
             "message": {
                 "text": [
-                    "cheers :clap:"
-                ]
-            }
-        },
-        {
-            "message": {
-                "text": [
-                    "You are doing great, keep it up! :clap:"
+                    "Doing great CAPTAIN!"
                 ]
             }
         },
@@ -265,13 +237,6 @@ var Dialog = {
         },
         {
             "message": {
-                "text": [
-                    "Thank you!"
-                ]
-            }
-        },
-        {
-            "message": {
                 "payload": 496273773,
                 "text": [
                     "Source, Environmental pathway and contact are the three parts of:"
@@ -297,57 +262,6 @@ var Dialog = {
                         "content_type": "text",
                         "title": "Element"
                     }
-                ]
-            }
-        },
-        {
-            "message": {
-                "text": [
-                    "cheers :clap:"
-                ]
-            }
-        },
-        {
-            "message": {
-                "text": [
-                    "You're halfway through, doing great."
-                ]
-            }
-        },
-        {
-            "message": {
-                "payload": 630034836,
-                "text": [
-                    "The quantity of poisonous or dangerous thing enters into the body is called:"
-                ],
-                "quick_replies": [
-                    {
-                        "content_type": "text",
-                        "title": "Hazard"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": "Toxic"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": "Exposure"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": "Dose"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": "Risk"
-                    }
-                ]
-            }
-        },
-        {
-            "message": {
-                "text": [
-                    "Hang in there, just 4 more to go"
                 ]
             }
         },
@@ -384,37 +298,7 @@ var Dialog = {
         {
             "message": {
                 "text": [
-                    "3 more questions to go"
-                ]
-            }
-        },
-        {
-            "message": {
-                "payload": 729814974,
-                "text": [
-                    "Body size, age and life style play a vital role in the individual:"
-                ],
-                "quick_replies": [
-                    {
-                        "content_type": "text",
-                        "title": "Hazard"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": "Risk"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": "Dose"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": "Exposure"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": "Susceptibility"
-                    }
+                    "4 more to go"
                 ]
             }
         },
@@ -451,7 +335,14 @@ var Dialog = {
         {
             "message": {
                 "text": [
-                    "Moving on to final question."
+                    ":clap::clap::clap:"
+                ]
+            }
+        },
+        {
+            "message": {
+                "text": [
+                    "3 more questions to go"
                 ]
             }
         },
@@ -482,6 +373,66 @@ var Dialog = {
                         "content_type": "text",
                         "title": "Intestines"
                     }
+                ]
+            }
+        },
+        {
+            "message": {
+                "payload": 729814974,
+                "text": [
+                    "Body size, age and life style play a vital role in the individual:"
+                ],
+                "quick_replies": [
+                    {
+                        "content_type": "text",
+                        "title": "Hazard"
+                    },
+                    {
+                        "content_type": "text",
+                        "title": "Risk"
+                    },
+                    {
+                        "content_type": "text",
+                        "title": "Dose"
+                    },
+                    {
+                        "content_type": "text",
+                        "title": "Exposure"
+                    },
+                    {
+                        "content_type": "text",
+                        "title": "Susceptibility"
+                    }
+                ]
+            }
+        },
+        {
+            "message": {
+                "payload": 630034836,
+                "text": [
+                    "The quantity of poisonous or dangerous thing enters into the body is called:"
+                ],
+                "quick_replies": [
+                    {
+                        "content_type": "text",
+                        "title": "Hazard"
+                    },
+                    {
+                        "content_type": "text",
+                        "title": "Toxic"
+                    },
+                    {
+                        "content_type": "text",
+                        "title": "Exposure"
+                    },
+                    {
+                        "content_type": "text",
+                        "title": "Dose"
+                    },
+                    {
+                        "content_type": "text",
+                        "title": "Risk"
+                    }
                 ],
                 "script": "[%messages_submit%]"
             }
@@ -494,7 +445,7 @@ var Dialog = {
                     {
                         "content_type": "submit-form",
                         "title": "Submit",
-                        "submit_url": "https://docs.google.com/forms/d/e/1FAIpQLSeHF0JYmRcaZbidtKiwstw5CmThlFqpqreD1l1PAmd6vZPSPg/formResponse",
+                        "submit_url": "https://docs.google.com/forms/d/e/1FAIpQLSd7k3U7Xb8Qba2_BjMGfzCwQsGY_hVvxfJv0--H_Q5VGkh5ow/formResponse",
                         "payload": ""
                     }
                 ]
@@ -503,7 +454,7 @@ var Dialog = {
         {
             "message": {
                 "text": [
-                    "Thanks alot for bearing with me.Your test has been submitted, you may close this chat now.\n\nThis web app is part of my personal educational suite in development.\nApologies in advance for any bugs or inconvenience.\nDeveloped by Muhammad Hassan Ashfaq @ https://doctorbhatti.cf/\n\nCopyright Ⓒ 2020, Doctor Bhatti Develops."
+                    "Your test has been submitted, you may close this chat now.\n\nThis web app is part of my personal educational suite in development.\nApologies in advance for any bugs or inconvenience.\nDeveloped by Muhammad Hassan Ashfaq @ https://doctorbhatti.cf/\n\nCopyright Ⓒ 2020, Doctor Bhatti Develops.\n"
                 ],
                 "last": true
             }
